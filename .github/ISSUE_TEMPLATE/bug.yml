@@ -1,0 +1,96 @@
+name: Laporan galat
+description: Ada yang rusak, berhenti, atau menampilkan hasil yang salah
+title: "[Galat] "
+labels: ["galat"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih sudah melapor. Makin jelas langkahnya, makin cepat kami bisa mengulang masalahnya.
+
+        **Jangan melampirkan data pasien sungguhan, isi `setelan.json`, sandi, atau token.**
+        Untuk dugaan kerentanan keamanan, jangan pakai formulir ini. Baca [kebijakan keamanan](https://github.com/team-basis/simrs/security/policy).
+  - type: input
+    id: versi
+    attributes:
+      label: Versi paket
+      description: Tertulis di bawah layar masuk, dan di berkas `VERSI.txt` dalam paket.
+      placeholder: "mis. 2026.10.28-abc1234"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistem
+    attributes:
+      label: Sistem operasi
+      options:
+        - Windows 11
+        - Windows 10
+        - Ubuntu atau Debian
+        - Linux lain
+        - macOS
+        - Lainnya
+    validations:
+      required: true
+  - type: input
+    id: layar
+    attributes:
+      label: Layar tempat terjadinya
+      description: Nama menunya, atau alamat di bilah peramban.
+      placeholder: "mis. Farmasi → Apotek"
+    validations:
+      required: true
+  - type: dropdown
+    id: peran
+    attributes:
+      label: Anda masuk sebagai peran apa
+      options:
+        - Pendaftaran
+        - Dokter
+        - Perawat
+        - Apoteker atau petugas farmasi
+        - Laboratorium atau radiologi
+        - Kasir
+        - Akuntansi atau keuangan
+        - Administrator
+        - Lainnya
+  - type: textarea
+    id: langkah
+    attributes:
+      label: Langkah demi langkah
+      description: Dari layar mana Anda mulai, apa yang Anda tekan atau isi, sampai masalahnya muncul.
+      placeholder: |
+        1. Masuk sebagai ...
+        2. Buka ...
+        3. Tekan ...
+    validations:
+      required: true
+  - type: textarea
+    id: terjadi
+    attributes:
+      label: Yang terjadi
+    validations:
+      required: true
+  - type: textarea
+    id: harapan
+    attributes:
+      label: Yang Anda harapkan
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Teks di jendela konsol
+      description: Bila aplikasi berhenti atau menampilkan galat, salin teks dari jendela konsol. Periksa dulu bahwa tidak ada sandi di dalamnya.
+      render: shell
+  - type: textarea
+    id: lampiran
+    attributes:
+      label: Tangkapan layar
+      description: Tempelkan gambarnya di sini. Pastikan hanya memuat data karangan.
+  - type: checkboxes
+    id: aman
+    attributes:
+      label: Pemeriksaan terakhir
+      options:
+        - label: Saya tidak melampirkan data pasien sungguhan, isi `setelan.json`, sandi, token, atau kredensial.
+          required: true

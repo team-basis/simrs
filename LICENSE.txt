@@ -1,0 +1,83 @@
+LISENSI UJI COBA — SIMRS
+========================
+
+Hak cipta (c) 2026 Basis. Seluruh hak dilindungi.
+
+Paket ini dibagikan gratis supaya Anda bisa mencobanya dan memberi masukan.
+Dengan menjalankannya, Anda menyetujui ketentuan di bawah.
+
+
+1. Yang boleh Anda lakukan
+
+   a. Memasang dan menjalankan perangkat lunak ini di komputer atau server milik
+      Anda atau organisasi Anda, tanpa biaya, untuk mencoba dan menilainya.
+   b. Membagikan paket ini kepada orang lain, selama utuh dan tidak diubah,
+      beserta berkas lisensi ini.
+
+
+2. Yang tidak boleh Anda lakukan
+
+   a. Memakainya untuk pelayanan pasien sungguhan, atau memasukkan data pasien
+      sungguhan ke dalamnya. Ini versi uji coba.
+   b. Menjualnya, menyewakannya, atau menarik biaya atas paket ini.
+   c. Mengubahnya, membongkarnya (dekompilasi, reverse engineering), atau membuat
+      karya turunan darinya. Kode sumbernya tidak termasuk dalam lisensi ini.
+   d. Menghapus atau mengubah keterangan hak cipta dan lisensi ini.
+
+
+3. Masukan
+
+   Masukan yang Anda kirim (laporan galat, saran, catatan pengujian) boleh kami
+   pakai untuk memperbaiki perangkat lunak ini tanpa kewajiban apa pun kepada
+   Anda. Jangan menyertakan data pasien atau rahasia organisasi Anda.
+
+   Alamat masukan: basisapp.admin@gmail.com
+
+
+4. Tanpa jaminan
+
+   Perangkat lunak ini diberikan "apa adanya", tanpa jaminan apa pun, tersurat
+   maupun tersirat, termasuk jaminan kelayakan untuk tujuan tertentu, ketepatan
+   perhitungan, atau kepatuhan terhadap peraturan. Versi uji coba bisa memuat
+   kesalahan, dan data di dalamnya bisa hilang saat diperbarui.
+
+   Sepanjang diizinkan hukum, pemegang hak cipta tidak bertanggung jawab atas
+   kerugian apa pun yang timbul dari pemakaian perangkat lunak ini.
+
+
+5. Data Anda
+
+   Perangkat lunak ini berjalan di komputer Anda dan menyimpan datanya di
+   PostgreSQL milik Anda. Ia tidak mengirim data ke pemegang hak cipta. Ia baru
+   menghubungi pihak luar (SATUSEHAT, BPJS, dan sejenisnya) bila Anda sendiri
+   menyalakan integrasinya dan mengisi kredensialnya. Cadangan data sepenuhnya
+   tanggung jawab Anda.
+
+
+6. Komponen pihak ketiga
+
+   Paket ini memuat komponen pihak ketiga (antara lain .NET, Entity Framework
+   Core, Npgsql, Firely SDK, Tailwind CSS, dan Tabulator) yang masing-masing
+   tunduk pada lisensinya sendiri. Lisensi ini tidak mengubah hak Anda atas
+   komponen tersebut.
+
+   Katalog terminologi yang ikut ditanam (ICD-10, ICD-9-CM, LOINC, SNOMED CT,
+   KFA, KPTL, wilayah) diterbitkan pihak lain dan tunduk pada ketentuan
+   penerbitnya masing-masing.
+
+   Daftar lengkap komponen dan katalog tersebut, beserta pemegang hak cipta,
+   lisensi, dan pemberitahuan yang wajib menyertainya, ada di berkas
+   PIHAK-KETIGA.md.
+
+
+7. Berakhirnya lisensi
+
+   Lisensi ini berakhir dengan sendirinya bila Anda melanggar ketentuannya.
+   Pemegang hak cipta boleh menerbitkan versi berikutnya dengan ketentuan lain;
+   ketentuan ini tetap berlaku bagi versi yang sudah Anda terima.
+
+
+8. Pemakaian di luar uji coba
+
+   Pemakaian untuk pelayanan sungguhan memerlukan kesepakatan tersendiri.
+   Hubungi alamat di butir 3.

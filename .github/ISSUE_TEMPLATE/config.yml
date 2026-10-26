@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tanya atau berdiskusi
+    url: https://github.com/team-basis/simrs/discussions
+    about: Pertanyaan, ide yang belum matang, atau cerita dari rumah sakit Anda. Tidak semua hal perlu jadi issue.
+  - name: Melaporkan kerentanan keamanan
+    url: https://github.com/team-basis/simrs/security/policy
+    about: Jangan melapor lewat issue publik. Ikuti kebijakan keamanan.

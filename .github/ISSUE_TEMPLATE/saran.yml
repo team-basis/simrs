@@ -1,0 +1,69 @@
+name: Saran
+description: Usul fitur, perubahan alur, atau laporan yang Anda butuhkan
+title: "[Saran] "
+labels: ["saran"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Satu usulan, satu issue. Mulailah dari **masalah di lapangan**, bukan dari bentuk layarnya.
+        Kami tidak menjanjikan semua usulan dikerjakan, tetapi setiap usulan dibaca dan, bila ditolak, disebutkan alasannya.
+
+        **Jangan melampirkan data pasien sungguhan, isi `setelan.json`, sandi, atau token.**
+  - type: dropdown
+    id: peran
+    attributes:
+      label: Peran Anda
+      options:
+        - Dokter
+        - Perawat atau bidan
+        - Apoteker atau petugas farmasi
+        - Petugas pendaftaran
+        - Petugas laboratorium atau radiologi
+        - Kasir
+        - Akuntansi atau keuangan
+        - Rekam medis atau koder
+        - Manajemen atau direksi
+        - Administrator atau TI
+        - Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: masalah
+    attributes:
+      label: Masalah yang Anda hadapi
+      description: Apa yang sekarang sulit, lambat, atau tidak bisa dikerjakan? Seberapa sering terjadi?
+    validations:
+      required: true
+  - type: textarea
+    id: usulan
+    attributes:
+      label: Yang Anda usulkan
+      description: Bagaimana seharusnya bekerja, menurut Anda.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatif
+    attributes:
+      label: Cara Anda mengatasinya sekarang
+      description: Misalnya dengan buku catatan, lembar Excel, atau sistem lain.
+  - type: dropdown
+    id: regulasi
+    attributes:
+      label: Apakah usulan ini dituntut aturan?
+      options:
+        - Tidak, ini kebutuhan kerja
+        - Ya, saya sebutkan aturannya di bawah
+        - Saya tidak tahu
+  - type: textarea
+    id: konteks
+    attributes:
+      label: Konteks tambahan
+      description: Jenis dan ukuran rumah sakit, aturan yang menuntutnya, atau contoh dari tempat lain. Tanpa data pasien.
+  - type: checkboxes
+    id: aman
+    attributes:
+      label: Pemeriksaan terakhir
+      options:
+        - label: Saya tidak melampirkan data pasien sungguhan, isi `setelan.json`, sandi, token, atau kredensial.
+          required: true

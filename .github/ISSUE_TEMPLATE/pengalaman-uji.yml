@@ -1,0 +1,76 @@
+name: Pengalaman mencoba
+description: Ada yang membingungkan, terlalu panjang, atau istilahnya asing, walau tidak rusak
+title: "[Pengalaman] "
+labels: ["pengalaman-uji"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Layar yang tidak jelas sama seriusnya dengan layar yang rusak. Ceritakan apa adanya.
+
+        **Jangan melampirkan data pasien sungguhan, isi `setelan.json`, sandi, atau token.**
+  - type: input
+    id: versi
+    attributes:
+      label: Versi paket
+      description: Tertulis di bawah layar masuk, dan di berkas `VERSI.txt` dalam paket.
+    validations:
+      required: true
+  - type: dropdown
+    id: peran
+    attributes:
+      label: Peran Anda sehari-hari
+      description: Layar yang sama terlihat berbeda dari tiap meja.
+      options:
+        - Dokter
+        - Perawat atau bidan
+        - Apoteker atau petugas farmasi
+        - Petugas pendaftaran
+        - Petugas laboratorium atau radiologi
+        - Kasir
+        - Akuntansi atau keuangan
+        - Rekam medis atau koder
+        - Manajemen atau direksi
+        - Administrator atau TI
+        - Lainnya
+    validations:
+      required: true
+  - type: input
+    id: layar
+    attributes:
+      label: Layar atau alur yang Anda coba
+      placeholder: "mis. mendaftarkan pasien baru, menulis resep"
+    validations:
+      required: true
+  - type: dropdown
+    id: jenis
+    attributes:
+      label: Yang Anda rasakan
+      options:
+        - Tidak jelas harus mengisi apa
+        - Istilahnya tidak saya kenal
+        - Terlalu banyak langkah atau isian
+        - Urutannya tidak seperti di tempat kerja saya
+        - Sulit dibaca atau ditemukan
+        - Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: cerita
+    attributes:
+      label: Ceritakan
+      description: Apa yang Anda coba lakukan, di mana Anda berhenti atau ragu, dan apa yang Anda harapkan.
+    validations:
+      required: true
+  - type: textarea
+    id: lampiran
+    attributes:
+      label: Tangkapan layar
+      description: Tempelkan gambarnya di sini. Pastikan hanya memuat data karangan.
+  - type: checkboxes
+    id: aman
+    attributes:
+      label: Pemeriksaan terakhir
+      options:
+        - label: Saya tidak melampirkan data pasien sungguhan, isi `setelan.json`, sandi, token, atau kredensial.
+          required: true
