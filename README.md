@@ -78,6 +78,47 @@ dokternya tenaga kesehatan uji milik Kemenkes (namanya tersamar, begitulah sandb
 </tr>
 </table>
 
+### Modul pendukung
+
+<table>
+<tr>
+<td width="50%"><img src="gambar/igd-papan-triase.png" alt="Papan IGD"><br><sub><b>IGD.</b> Antrean menurut kegawatan, dengan peringatan bila lewat target tanggap.</sub></td>
+<td width="50%"><img src="gambar/kamar-operasi.png" alt="Kamar operasi"><br><sub><b>Kamar operasi.</b> Waktu operasi, persetujuan tindakan, dan set instrumen.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/kamar-bersalin.png" alt="Kamar bersalin"><br><sub><b>Kamar bersalin.</b> Catatan persalinan, komplikasi, persetujuan tindakan, dan tanda vital ibu.</sub></td>
+<td><img src="gambar/cssd-sterilisasi.png" alt="Sterilisasi pusat"><br><sub><b>Sterilisasi pusat (CSSD).</b> Mesin, siklus yang berjalan, dan indikator biologis.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/asuhan-gizi.png" alt="Asuhan gizi terstandar"><br><sub><b>Gizi.</b> Skrining, pengkajian, dan diagnosis gizi.</sub></td>
+<td><img src="gambar/binatu-linen.png" alt="Binatu dan linen"><br><sub><b>Binatu.</b> Serah-terima linen kotor dan neraca linen per ruangan.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/pengadaan-utang-usaha.png" alt="Utang usaha"><br><sub><b>Pengadaan.</b> Umur utang per pemasok, dicocokkan dengan buku besar.</sub></td>
+<td><img src="gambar/kepegawaian.png" alt="Kepegawaian"><br><sub><b>Pegawai.</b> Berkas pegawai menurut golongan, jabatan, dan hubungan kerja.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/daftar-gaji.png" alt="Daftar gaji"><br><sub><b>Gaji.</b> Penghasilan bruto, potongan, PPh 21, dan slip tiap pegawai.</sub></td>
+<td><img src="gambar/kebijakan-jasa-pelayanan.png" alt="Kebijakan jasa pelayanan"><br><sub><b>Remunerasi.</b> Bobot peran per layanan dan porsi jasa BPJS per lini. Angkanya contoh, dan layar sendiri mengingatkan bahwa ia wajib ditetapkan SK direksi.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/jasa-pelayanan-dokter.png" alt="Jasa pelayanan dokter"><br><sub><b>Jasa pelayanan dokter.</b> Dicatat saat tagihan terbit (BPJS: saat klaim dibayar), dibayarkan dari sini.</sub></td>
+<td><img src="gambar/aset-tetap.png" alt="Aset tetap dan penyusutan"><br><sub><b>Aset tetap.</b> Nilai buku per golongan, diadu dengan buku besar dan selisihnya diperingatkan.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/daftar-kerja-koding.png" alt="Daftar kerja koding"><br><sub><b>Koding.</b> Diagnosis utama dan kode tindakan yang masih menunggu.</sub></td>
+<td><img src="gambar/indikator-mutu.png" alt="Indikator mutu"><br><sub><b>Mutu.</b> Indikator nasional mutu, dengan pembilang dan penyebutnya.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/insiden-keselamatan-pasien.png" alt="Insiden keselamatan pasien"><br><sub><b>Keselamatan pasien.</b> Laporan awal insiden dan grading risikonya.</sub></td>
+<td><img src="gambar/laporan-sirs.png" alt="Laporan SIRS"><br><sub><b>Laporan SIRS.</b> Indikator pelayanan RL 1.2 dihitung dari data pelayanan.</sub></td>
+</tr>
+<tr>
+<td><img src="gambar/ssrme-rekam-medis-nasional.png" alt="Kartu SATUSEHAT Rekam Medis di lembar kerja dokter"><br><sub><b>SATUSEHAT Rekam Medis (SSRME).</b> Persetujuan pasien dan verifikasi profil dimintakan dari lembar kerja. Pembukaan tercatat di jejak audit.</sub></td>
+<td><img src="gambar/akses-lintas-dpjp.png" alt="Dialog akses berkas pasien yang bukan asuhan sendiri"><br><sub><b>Hak akses.</b> Membuka berkas yang bukan asuhan Anda boleh, dengan alasan yang tercatat.</sub></td>
+</tr>
+</table>
+
 ## Yang sudah didukung
 
 Lebih dari 200 layar, dikelompokkan dalam 25 modul di enam bagian menu. Menu hanya
@@ -88,7 +129,7 @@ menampilkan layar yang boleh dibuka peran Anda.
 | **Pelayanan** | **Pendaftaran** (pasien baru, penggabungan berkas ganda, kontrol ulang, rencana rawat inap, SEP BPJS). **Antrean** poliklinik dan papan ruang tunggu. **IGD** (triase, pasien tak dikenal, keputusan dokter). **Rawat inap** (CPPT, papan tempat tidur, obat stok ruangan). **Kamar operasi**, **kamar bersalin**, asuhan kehamilan dan nifas. **Register** TB, HIV, dan penyakit lain. **Rujukan** masuk dan keluar. **Rekam medis**: SOAP, diagnosis ICD-10, alergi, resume medis, adendum, lampiran pindaian, persetujuan tindakan, koding, sertifikat kematian |
 | **Penunjang** | **Laboratorium** (spesimen, nilai rujukan per kelompok umur, nilai kritis, antarmuka alat). **Radiologi** (worklist DICOM). **Bank darah**. **Gizi** (asuhan gizi terstandar). **Rehabilitasi medik**. **Sterilisasi pusat** dan **binatu** |
 | **Farmasi dan logistik** | **Apotek**: kaji resep, racikan, alat kesehatan, penjualan bebas, stok dilacak per batch dan diambil menurut tanggal kedaluwarsa terdekat. **Pengadaan**: permintaan, pesanan, persetujuan berjenjang, utang usaha, retur. **Persediaan**: penerimaan, distribusi ke depo, stok opname, penelusuran batch |
-| **Administrasi** | **Kasir**: tagihan, titipan pasien, titipan penunjang. **Klaim dan piutang**: klaim penjamin, INA-CBG, pelunasan, umur piutang. **Akuntansi**: buku besar menurut PSAK, jurnal otomatis dan manual, neraca saldo, neraca, laba rugi per lini, PPN keluaran, PPh 21, aset tetap dan penyusutan, kunci buku, jasa pelayanan dokter. **Kepegawaian**: berkas pegawai, skala gaji, daftar gaji, THR, PPh 21 beserta berkas untuk Coretax |
+| **Administrasi** | **Kasir**: tagihan, titipan pasien, titipan penunjang. **Klaim dan piutang**: klaim penjamin, INA-CBG, pelunasan, umur piutang. **Akuntansi**: buku besar menurut PSAK, jurnal otomatis dan manual, neraca saldo, neraca, laba rugi per lini, PPN keluaran, PPh 21, aset tetap dan penyusutan, kunci buku. **Remunerasi**: kebijakan jasa pelayanan (bobot tiap peran per layanan, porsi jasa BPJS per lini) dan jasa pelayanan dokter, yang dicatat saat tagihan terbit (BPJS: saat klaim dibayar). **Kepegawaian**: berkas pegawai, skala gaji, daftar gaji, THR, PPh 21 beserta berkas untuk Coretax |
 | **Manajemen dan mutu** | Dasbor direksi, indikator mutu, laporan SIRS (RL), insiden keselamatan pasien, pencegahan infeksi (PPI), kecelakaan kerja (K3RS) |
 | **Sistem** | Master data (tenaga kesehatan, jadwal praktik, layanan dan tarif, katalog obat dan barang, pemasok, penjamin, formulir asesmen, dan lainnya). Pengguna, peran dan izin, jejak audit, pemantauan integrasi, kesehatan cadangan, masa simpan arsip |
 
@@ -108,7 +149,7 @@ Kolom *Keadaan* menjawab satu pertanyaan: **seberapa jauh integrasinya sudah dib
 
 | Integrasi | Fungsinya | Keadaan (27 Okt 2026) |
 |---|---|---|
-| **SATUSEHAT** (HL7 FHIR R4) | Data master dan data klinis tiap kunjungan, resume medis, tagihan | **Terbukti di sandbox Kemenkes.** Produksi menunggu registrasi sistem rekam medis ke Kemenkes dan kredensial produksi |
+| **SATUSEHAT** (HL7 FHIR R4) | Data master dan data klinis tiap kunjungan, resume medis, tagihan. Di lembar kerja ada juga tombol **SATUSEHAT Rekam Medis (SSRME)**: minta persetujuan pasien, akses darurat IGD, dan pembukaan rekam medis nasional oleh dokter penanggung jawab | **Terbukti di sandbox Kemenkes.** Produksi menunggu registrasi sistem rekam medis ke Kemenkes dan kredensial produksi |
 | **SATUSEHAT Webhook** | Menerima jawaban penjamin (eligibilitas, persetujuan, hasil klaim) | Penerima dan pembuka pesan terenkripsi (HPKE) ada, diuji dengan vektor RFC 9180. **Kiriman sungguhan dari Kemenkes belum pernah terlihat** |
 | **DICOM Router Kemenkes** | Menerbitkan `ImagingStudy` dari citra modalitas | **Terbukti di staging** (26 Sep 2026). Router dipasang terpisah |
 | **BPJS VClaim** | Kepesertaan, rujukan, SEP, surat kontrol, rencana kontrol, PRB | Dibangun menurut dokumentasi resmi, alamatnya diadu ke gerbang BPJS, diuji dengan simulator. **Belum dengan kredensial rumah sakit sungguhan** |
@@ -163,8 +204,13 @@ Angka di bawah diukur pada **27 Oktober 2026** dan akan basi. Tanggalnya sengaja
 |---|---|---|
 | Langkah interoperabilitas SATUSEHAT yang jadi tugas sistem rumah sakit | **499 dari 526** terbukti diterima gerbang sandbox. 27 belum | Daftar langkah resmi Kemenkes per modul (34 modul), diadu mesin dengan bukti dari gerbang. 61 langkah lain dikerjakan pihak lain |
 | Jenis pesan yang pernah diterima gerbang | 119 | Berkas bukti ditulis mesin dari antrean sesudah rantai dijalankan |
-| Kotak transaksi di dasbor sandbox SATUSEHAT | **19 dari 19** terisi (9 Okt 2026) | Tangkapan dasbor sesudah seluruh skenario dijalankan dari pemasangan bersih |
+| Jenis resource di dasbor Monitoring Integrasi SATUSEHAT (sandbox) | **19 dari 19** terisi, rentang 27 Sep sampai 27 Okt 2026, diperbarui 27 Okt 2026 pukul 00.01 WIB | Tangkapan dasbor milik Kemenkes di sisi mereka, dibaca sesudah seluruh skenario dan tur dijalankan. Gambarnya di bawah |
 | Tur otomatis | **342 tes** di 27 berkas | Peramban sungguhan yang menekan tombol seperti petugas: tes yang hijau berarti tombolnya benar-benar bekerja |
+
+<img src="gambar/monitoring-satusehat-sandbox.png" alt="Dasbor Monitoring Integrasi SATUSEHAT di sandbox: seluruh 19 jenis resource terisi" width="860">
+
+<sub>Dasbor Monitoring Integrasi SATUSEHAT milik Kemenkes (lingkungan sandbox), tangkapan layar pengembang SIMRS.
+Angkanya menjumlah seluruh uji coba kami selama sebulan di sandbox, <b>bukan volume pasien</b>.</sub>
 
 Satu aturan kami: **tes hijau bukan bukti integrasi.** Yang dihitung adalah muatan yang
 benar-benar diterima gerbang, dibaca kembali dari salinannya di sana.
