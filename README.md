@@ -47,6 +47,7 @@ ke SATUSEHAT).
 | | |
 |---|---|
 | **Satu sistem, satu basis data** | Biaya yang lahir dari pelayanan masuk jurnal lewat aturan posting yang bisa diaudit. Tidak ada input ulang antara kasir dan akuntansi |
+| **Data medis mengacu ke SATUSEHAT** | Isian di layar dan kode yang dipilih petugas disusun menurut playbook dan petunjuk teknis SATUSEHAT, jadi yang dicatat sekali sudah membentuk data yang diminta saat dilaporkan. [Selengkapnya](#mengacu-ke-satusehat) |
 | **Integrasi bukan tempelan** | SATUSEHAT dan BPJS berangkat lewat antrean di latar belakang. Pelayanan tidak menunggu server luar, dan tetap jalan saat internet putus |
 | **Keselamatan pasien di dalam alur** | Peringatan alergi menahan peresepan. Darah tanpa uji silang serasi tidak keluar. Nilai kritis laboratorium menuntut tindak lanjut |
 | **Jejak audit dan hak akses** | Siapa membuka data apa tercatat, termasuk yang hanya membaca. Izin diatur per peran. Akun administrator tidak bisa mengerjakan pelayanan, itu disengaja |
@@ -121,6 +122,38 @@ Kolom *Keadaan* menjawab satu pertanyaan: **seberapa jauh integrasinya sudah dib
 | **Worklist radiologi** (DICOM) | Jadwal pemeriksaan ke modalitas | Diuji dengan simulator modalitas |
 
 Siapa menerbitkan kredensial apa, ada di [PIHAK-KETIGA.md](PIHAK-KETIGA.md#4-layanan-luar-yang-butuh-izin-penyelenggaranya).
+
+### Mengacu ke SATUSEHAT
+
+Bagian medis SIMRS dibangun dengan SATUSEHAT sebagai acuan. Isian yang tampil di layar, kode
+yang dipilih petugas, dan urutan pencatatannya disusun supaya memenuhi data yang diminta
+SATUSEHAT. Petugas mencatat sekali, dan bahan laporannya ikut terbentuk.
+
+Acuannya, dari yang paling berwenang:
+
+1. **Halaman interoperabilitas** tiap modul: apa yang dikirim dan urutannya.
+2. **Petunjuk teknis dan playbook** tiap modul: ruas mana yang wajib.
+3. **Lampiran terminologi**: daftar nilai berkode (KFA, KPTL, LOINC, SNOMED CT, dan lainnya).
+4. **Koleksi Postman** resmi: bentuk muatan yang terbukti diterima.
+5. **Gerbang SATUSEHAT**: hakim terakhir. Sebuah muatan baru dianggap benar bila gerbang
+   menerimanya dan salinannya terbaca kembali dari sana.
+
+**Cakupan.** Seluruh use case dan koleksi Postman yang terbit sampai **19 Oktober 2026**
+(penarikan terakhir kami) sudah tercakup di dalam sistem dan diuji. Pengujiannya terhadap
+gerbang sandbox, atau terhadap simulator bila gerbangnya belum bisa menjawab. Pengecualiannya
+dua macam:
+
+- **Langkah yang menunggu jawaban pihak ketiga.** Penjamin atau BPJS-K belum menerbitkan
+  jawabannya di sandbox, faskes tujuan rujukan belum menjawab, atau gerbang tidak menyediakan
+  jalur baca. Ada juga hasil verifikasi klaim yang sengaja dimasukkan koder dari berita acara
+  penjamin. Muatannya sudah siap, tetapi tidak bisa dibuktikan sampai lawan bicaranya menjawab.
+- **Pelayanan luar gedung**, yaitu pemeriksaan kesehatan di UKS dan Posyandu. Itu kami tunda.
+
+Acuan ini **terus berubah**. Kemenkes memperbarui playbook dan koleksi Postman dari waktu ke
+waktu, dan aturan gerbang bisa berubah dalam hitungan jam. Integrasi SIMRS diperbarui
+mengikutinya, dan perubahan yang berdampak ditulis di catatan rilis. Karena itu angka cakupan
+di [bagian bukti](#bagaimana-kami-membuktikannya) selalu bertanggal, dan **belum semua langkah
+terpenuhi**.
 
 ## Bagaimana kami membuktikannya
 
@@ -306,6 +339,8 @@ atau BPJS Kesehatan.
 
 - Pemakaian dengan **kredensial produksi** SATUSEHAT dan BPJS. Untuk SATUSEHAT, itu
   menunggu registrasi sistem rekam medis ke Kemenkes.
+- **Langkah SATUSEHAT yang menunggu jawaban pihak ketiga**, dan **pelayanan luar gedung**
+  (UKS dan Posyandu). Rinciannya di [bagian Mengacu ke SATUSEHAT](#mengacu-ke-satusehat).
 - **Antrean Online sisi masuk**: Mobile JKN memanggil rumah sakit untuk jadwal dan nomor antrean.
 - **Verifikasi DPJP atas catatan perawat** dan catatan farmasi klinis. Itu keputusan komite medis.
 - **Pengenalan teks (OCR)** pada lampiran pindaian, dan pemindaian langsung dari alat.

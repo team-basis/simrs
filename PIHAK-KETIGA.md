@@ -111,6 +111,10 @@ diterbitkan penyelenggara layanannya, tidak oleh SIMRS.
 | DICOM Router (untuk ImagingStudy) | Kemenkes | Komponen dipasang terpisah di jaringan rumah sakit |
 | Alat laboratorium dan modalitas radiologi | Vendor alat | Alat yang mendukung HL7 v2 atau DICOM Modality Worklist |
 
+Playbook, petunjuk teknis, dan koleksi Postman SATUSEHAT adalah terbitan Kemenkes. SIMRS
+memakainya sebagai **acuan rancangan** dan tidak menyertakannya, baik dalam paket maupun di
+repositori ini. Unduh versi terbarunya dari Kemenkes.
+
 Memakai integrasi pada data pasien sungguhan di luar uji coba memerlukan **kesepakatan
 tersendiri** dengan pemegang hak cipta SIMRS. Lihat butir 8 pada lisensi uji coba.
 
