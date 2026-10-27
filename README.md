@@ -307,14 +307,15 @@ Seluruh rilis ditandai **preview**: sesuatu bisa berubah antarversi.
 
 ## Video skenario
 
-Video menunjukkan alur kerja dari pemasangan sampai kuitansi, dengan narasi. Bahannya
-skenario yang sama dengan yang bisa Anda jalankan sendiri. **Video sedang direkam.**
-Tautannya akan ditambahkan di tabel ini dan di catatan rilis begitu tayang.
+Video menjalankan aplikasinya langsung, dengan narasi, dan seluruh datanya karangan. **S0**
+memperlihatkan paket yang baru dipasang sampai siap dipakai. **S1** satu pelayanan rawat jalan
+utuh, dari pendaftaran sampai obat diserahkan. Tautan video lain akan ditambahkan di tabel ini
+dan di catatan rilis begitu tayang.
 
 | Video | Isinya | Keadaan |
 |---|---|---|
-| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | Sedang direkam |
-| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | Sedang direkam |
+| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/HrwasCfMIJg), 17 menit |
+| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | Segera tayang |
 | **S2** | IGD: pasien tak dikenal, obat dari troli, pulang | Menyusul |
 | **S3** | IGD ke rawat inap ke operasi ke pulang | Menyusul |
 
