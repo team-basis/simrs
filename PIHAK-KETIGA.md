@@ -77,7 +77,7 @@ Paket **tidak** memuat rilis penuh SNOMED CT.
 
 ### Pemberitahuan LOINC
 
-> This material contains content from LOINC (http://loinc.org). LOINC is copyright
+> This material contains content from LOINC (http://loinc.org). LOINC is copyright ©
 > Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes
 > (LOINC) Committee and is available at no cost under the license at
 > http://loinc.org/license. LOINC® is a registered United States trademark of
