@@ -315,7 +315,7 @@ dan di catatan rilis begitu tayang.
 | Video | Isinya | Keadaan |
 |---|---|---|
 | **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/HrwasCfMIJg), 17 menit |
-| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | Segera tayang kembali |
+| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/g_oO9VNcf6c), 33 menit |
 | **S2** | IGD: pasien tak dikenal, obat dari troli, pulang | Menyusul |
 | **S3** | IGD ke rawat inap ke operasi ke pulang | Menyusul |
 
