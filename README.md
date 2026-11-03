@@ -147,7 +147,7 @@ Dua hal berlaku untuk semuanya:
 
 Kolom *Keadaan* menjawab satu pertanyaan: **seberapa jauh integrasinya sudah dibuktikan.**
 
-| Integrasi | Fungsinya | Keadaan (27 Okt 2026) |
+| Integrasi | Fungsinya | Keadaan (3 Nov 2026) |
 |---|---|---|
 | **SATUSEHAT** (HL7 FHIR R4) | Data master dan data klinis tiap kunjungan, resume medis, tagihan. Di lembar kerja ada juga tombol **SATUSEHAT Rekam Medis (SSRME)**: minta persetujuan pasien, akses darurat IGD, dan pembukaan rekam medis nasional oleh dokter penanggung jawab | **Terbukti di sandbox Kemenkes.** Produksi menunggu registrasi sistem rekam medis ke Kemenkes dan kredensial produksi |
 | **SATUSEHAT Webhook** | Menerima jawaban penjamin (eligibilitas, persetujuan, hasil klaim) | Penerima dan pembuka pesan terenkripsi (HPKE) ada, diuji dengan vektor RFC 9180. **Kiriman sungguhan dari Kemenkes belum pernah terlihat** |
@@ -198,14 +198,15 @@ terpenuhi**.
 
 ## Bagaimana kami membuktikannya
 
-Angka di bawah diukur pada **27 Oktober 2026** dan akan basi. Tanggalnya sengaja ditulis.
+Angka di bawah diukur pada **3 November 2026** dan akan basi. Tanggalnya sengaja ditulis. Tangkapan dasbor Kemenkes
+di bawahnya bertanggal sendiri.
 
 | Yang diukur | Hasil | Cara |
 |---|---|---|
 | Langkah interoperabilitas SATUSEHAT yang jadi tugas sistem rumah sakit | **499 dari 526** terbukti diterima gerbang sandbox. 27 belum | Daftar langkah resmi Kemenkes per modul (34 modul), diadu mesin dengan bukti dari gerbang. 61 langkah lain dikerjakan pihak lain |
 | Jenis pesan yang pernah diterima gerbang | 119 | Berkas bukti ditulis mesin dari antrean sesudah rantai dijalankan |
 | Jenis resource di dasbor Monitoring Integrasi SATUSEHAT (sandbox) | **19 dari 19** terisi, rentang 27 Sep sampai 27 Okt 2026, diperbarui 27 Okt 2026 pukul 00.01 WIB | Tangkapan dasbor milik Kemenkes di sisi mereka, dibaca sesudah seluruh skenario dan tur dijalankan. Gambarnya di bawah |
-| Tur otomatis | **342 tes** di 27 berkas | Peramban sungguhan yang menekan tombol seperti petugas: tes yang hijau berarti tombolnya benar-benar bekerja |
+| Tur otomatis | **362 tes** di 28 berkas | Peramban sungguhan yang menekan tombol seperti petugas: tes yang hijau berarti tombolnya benar-benar bekerja |
 
 <img src="gambar/monitoring-satusehat-sandbox.png" alt="Dasbor Monitoring Integrasi SATUSEHAT di sandbox: seluruh 19 jenis resource terisi" width="860">
 
@@ -321,8 +322,8 @@ jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian 
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
-Video direkam dari versi 3 November 2026. Paket yang bisa diunduh saat ini (2026.10.27.1) lebih
-lama, jadi sebagian layar di video dapat berbeda sampai rilis berikutnya terbit.
+Video direkam pada 3 November 2026 dari versi yang hampir sama dengan rilis terbaru. Beberapa
+perbaikan tampilan kecil menyusul sesudahnya, jadi satu dua layar dapat sedikit berbeda.
 
 Video **tidak membuktikan pengiriman ke Kemenkes**. Integrasi dimatikan pada rekamannya.
 
