@@ -308,16 +308,21 @@ Seluruh rilis ditandai **preview**: sesuatu bisa berubah antarversi.
 ## Video skenario
 
 Video menjalankan aplikasinya langsung, dengan narasi, dan seluruh datanya karangan. **S0**
-memperlihatkan paket yang baru dipasang sampai siap dipakai. **S1** satu pelayanan rawat jalan
-utuh, dari pendaftaran sampai obat diserahkan. Tautan video lain akan ditambahkan di tabel ini
-dan di catatan rilis begitu tayang.
+memperlihatkan paket yang baru dipasang sampai siap dipakai. **S1** sampai **S3** pelayanan
+pasien, dari rawat jalan sampai rawat inap dan operasi. **AK1** dan **AK2** memperlihatkan
+jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian akuntansinya.
 
-| Video | Isinya | Keadaan |
+| Video | Isinya | Tonton |
 |---|---|---|
-| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/HrwasCfMIJg), 17 menit |
-| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/g_oO9VNcf6c), 33 menit |
-| **S2** | IGD: pasien tak dikenal, obat dari troli, pulang | Menyusul |
-| **S3** | IGD ke rawat inap ke operasi ke pulang | Menyusul |
+| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/vxvFJVgF-ik), 17 menit |
+| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/6iUPR7-54cw), 34 menit |
+| **S2** | IGD: pasien tak dikenal, obat dari troli, pulang | [Tonton](https://youtu.be/Dmu7YNxhUm4), 14 menit |
+| **S3** | IGD ke rawat inap ke operasi ke pulang | [Tonton](https://youtu.be/FJ4FmjZpwsE), 38 menit |
+| **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
+| **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
+
+Video direkam dari versi 3 November 2026. Paket yang bisa diunduh saat ini (2026.10.27.1) lebih
+lama, jadi sebagian layar di video dapat berbeda sampai rilis berikutnya terbit.
 
 Video **tidak membuktikan pengiriman ke Kemenkes**. Integrasi dimatikan pada rekamannya.
 
