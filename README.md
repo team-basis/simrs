@@ -56,66 +56,93 @@ ke SATUSEHAT).
 
 ## Tangkapan layar
 
-Semua data pada gambar adalah karangan. Pasien dan nomor rekam medisnya dibuat acak,
-dokternya tenaga kesehatan uji milik Kemenkes (namanya tersamar, begitulah sandbox menyimpannya).
+Semua data pada gambar adalah karangan. Pasien dan nomor rekam medisnya dibuat acak, dan
+dokternya tenaga kesehatan uji milik Kemenkes atau karangan. Gambar diambil dari versi 2026.11.16.1.
+
+### Medis
 
 <table>
 <tr>
 <td width="50%"><img src="gambar/laboratorium-nilai-kritis.png" alt="Laboratorium: hasil dengan nilai kritis belum dilaporkan"><br><sub><b>Nilai kritis.</b> Hasil kritis yang belum dilaporkan ke dokter peminta tetap menyala sampai dicatat.</sub></td>
-<td width="50%"><img src="gambar/kasir.png" alt="Kasir"><br><sub><b>Kasir.</b> Tagihan per pasien dan rekap setoran.</sub></td>
+<td width="50%"><img src="gambar/igd-papan-triase.png" alt="Papan IGD"><br><sub><b>Papan IGD.</b> Antrean menurut kegawatan, peringatan lewat target tanggap, dan pasien yang identitasnya belum lengkap.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/dasbor-direksi.png" alt="Dasbor direksi"><br><sub><b>Dasbor direksi.</b> Kegiatan hari ini dan hal yang perlu perhatian.</sub></td>
-<td><img src="gambar/laba-rugi-per-lini.png" alt="Laba rugi per lini layanan"><br><sub><b>Laba rugi per lini layanan.</b> Rawat jalan, rawat inap, dan gawat darurat dibaca terpisah.</sub></td>
-</tr>
-<tr>
-<td><img src="gambar/stok-persediaan.png" alt="Stok persediaan per batch"><br><sub><b>Stok per batch.</b> Kartu stok dicocokkan dengan buku besar.</sub></td>
-<td><img src="gambar/papan-tempat-tidur.png" alt="Papan tempat tidur"><br><sub><b>Papan tempat tidur.</b> Keadaan tiap bangsal dan kelas.</sub></td>
-</tr>
-<tr>
-<td><img src="gambar/pemantauan-integrasi.png" alt="Pemantauan integrasi"><br><sub><b>Pemantauan integrasi.</b> Status, antrean, dan uji sambungan tiap layanan luar.</sub></td>
-<td><img src="gambar/tema-gelap.png" alt="Dasbor direksi dalam tema gelap"><br><sub><b>Tema gelap.</b> Tersedia tema terang dan gelap.</sub></td>
+<td><img src="gambar/kamar-operasi.png" alt="Kamar operasi"><br><sub><b>Kamar operasi.</b> Asesmen pra-anestesi, pemulihan pasca-anestesi, dan waktu operasi.</sub></td>
+<td><img src="gambar/resume-medis.png" alt="Resume medis rawat inap"><br><sub><b>Resume medis.</b> Diagnosis akhir, riwayat tempat tidur, dan obat pulang dibaca langsung dari rekam medisnya.</sub></td>
 </tr>
 </table>
 
-### Modul pendukung
+### Logistik
 
 <table>
 <tr>
-<td width="50%"><img src="gambar/igd-papan-triase.png" alt="Papan IGD"><br><sub><b>IGD.</b> Antrean menurut kegawatan, dengan peringatan bila lewat target tanggap.</sub></td>
-<td width="50%"><img src="gambar/kamar-operasi.png" alt="Kamar operasi"><br><sub><b>Kamar operasi.</b> Asesmen pra-anestesi, pemulihan pasca-anestesi, dan waktu operasi.</sub></td>
+<td width="50%"><img src="gambar/stok-persediaan.png" alt="Stok persediaan per batch"><br><sub><b>Stok per batch.</b> Nilai persediaan seluruh titik simpan dicocokkan dengan buku besar.</sub></td>
+<td width="50%"><img src="gambar/kartu-stok.png" alt="Kartu stok satu batch"><br><sub><b>Kartu stok.</b> Tiap gerakan barang tercatat dengan dokumen, petugas, dan saldo berjalan.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/kamar-bersalin.png" alt="Kamar bersalin"><br><sub><b>Kamar bersalin.</b> Catatan persalinan, komplikasi, persetujuan tindakan, dan tanda vital ibu.</sub></td>
-<td><img src="gambar/cssd-sterilisasi.png" alt="Sterilisasi pusat"><br><sub><b>Sterilisasi pusat (CSSD).</b> Mesin, siklus yang berjalan, dan indikator biologis.</sub></td>
+<td><img src="gambar/pesanan-pembelian.png" alt="Pesanan pembelian dengan persetujuan berjenjang"><br><sub><b>Pesanan pembelian.</b> Persetujuan berjenjang sebelum pesanan dikirim ke pemasok.</sub></td>
+<td><img src="gambar/pengadaan-utang-usaha.png" alt="Utang usaha"><br><sub><b>Utang usaha.</b> Umur utang per pemasok, dicocokkan dengan buku besar.</sub></td>
+</tr>
+</table>
+
+### Kasir dan akuntansi
+
+<table>
+<tr>
+<td width="50%"><img src="gambar/kasir.png" alt="Kasir"><br><sub><b>Kasir.</b> Tagihan per pasien dan rekap setoran laci.</sub></td>
+<td width="50%"><img src="gambar/jurnal-umum.png" alt="Jurnal umum"><br><sub><b>Jurnal otomatis.</b> Pembelian, penerimaan, distribusi, dan tagihan menjadi jurnal tanpa diketik ulang.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/asuhan-gizi.png" alt="Asuhan gizi terstandar"><br><sub><b>Gizi.</b> Skrining, pengkajian, dan diagnosis gizi.</sub></td>
-<td><img src="gambar/binatu-linen.png" alt="Binatu dan linen"><br><sub><b>Binatu.</b> Serah-terima linen kotor dan neraca linen per ruangan.</sub></td>
+<td><img src="gambar/laba-rugi-per-lini.png" alt="Laba rugi per lini layanan"><br><sub><b>Laba rugi per lini layanan.</b> Rawat jalan, rawat inap, dan gawat darurat dibaca terpisah.</sub></td>
+<td><img src="gambar/neraca.png" alt="Neraca"><br><sub><b>Neraca.</b> Aset, kewajiban, dan ekuitas, beserta pemeriksaan keseimbangannya.</sub></td>
+</tr>
+</table>
+
+### Aset tetap
+
+<table>
+<tr>
+<td width="50%"><img src="gambar/aset-tetap.png" alt="Aset tetap dan penyusutan"><br><sub><b>Aset tetap.</b> Nilai buku per golongan, diadu dengan buku besar dan selisihnya diperingatkan.</sub></td>
+<td width="50%"><img src="gambar/penyusutan-aset.png" alt="Penyusutan aset tetap"><br><sub><b>Penyusutan.</b> Garis lurus per bulan, dijurnal berurutan sampai bulan yang dipilih.</sub></td>
+</tr>
+</table>
+
+### Remunerasi dan pajak
+
+<table>
+<tr>
+<td width="50%"><img src="gambar/kebijakan-jasa-pelayanan.png" alt="Kebijakan jasa pelayanan"><br><sub><b>Kebijakan jasa pelayanan.</b> Bobot peran per layanan dan porsi jasa BPJS per lini. Angkanya contoh, dan layar sendiri mengingatkan bahwa ia wajib ditetapkan SK direksi.</sub></td>
+<td width="50%"><img src="gambar/jasa-pelayanan-dokter.png" alt="Jasa pelayanan dokter"><br><sub><b>Jasa pelayanan dokter.</b> Dicatat saat tagihan terbit (BPJS: saat klaim dibayar), dibayarkan dari sini.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/pengadaan-utang-usaha.png" alt="Utang usaha"><br><sub><b>Pengadaan.</b> Umur utang per pemasok, dicocokkan dengan buku besar.</sub></td>
-<td><img src="gambar/kepegawaian.png" alt="Kepegawaian"><br><sub><b>Pegawai.</b> Berkas pegawai menurut golongan, jabatan, dan hubungan kerja.</sub></td>
+<td><img src="gambar/daftar-gaji.png" alt="Daftar gaji"><br><sub><b>Gaji.</b> Penghasilan bruto, potongan, PPh 21, iuran BPJS, dan slip tiap pegawai.</sub></td>
+<td><img src="gambar/pph21-masa.png" alt="PPh 21 masa"><br><sub><b>PPh 21 masa.</b> Dicocokkan dengan buku besar, beserta bukti potong untuk diunggah ke Coretax.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/daftar-gaji.png" alt="Daftar gaji"><br><sub><b>Gaji.</b> Penghasilan bruto, potongan, PPh 21, dan slip tiap pegawai.</sub></td>
-<td><img src="gambar/kebijakan-jasa-pelayanan.png" alt="Kebijakan jasa pelayanan"><br><sub><b>Remunerasi.</b> Bobot peran per layanan dan porsi jasa BPJS per lini. Angkanya contoh, dan layar sendiri mengingatkan bahwa ia wajib ditetapkan SK direksi.</sub></td>
+<td><img src="gambar/ppn-keluaran.png" alt="PPN keluaran per kode pajak"><br><sub><b>PPN keluaran.</b> Per kode pajak, dari tagihan pasien dan penjualan bebas.</sub></td>
+<td></td>
+</tr>
+</table>
+
+### Antrean SATUSEHAT
+
+<table>
+<tr>
+<td width="50%"><img src="gambar/pemantauan-integrasi.png" alt="Pemantauan integrasi"><br><sub><b>Pemantauan integrasi.</b> Status, antrean, dan uji sambungan tiap layanan luar.</sub></td>
+<td width="50%"><img src="gambar/pengiriman-per-kunjungan.png" alt="Pengiriman SATUSEHAT per kunjungan"><br><sub><b>Pengiriman per kunjungan.</b> Data master yang belum terdaftar, resource yang menunggu, dan tindak lanjutnya.</sub></td>
 </tr>
 <tr>
-<td><img src="gambar/jasa-pelayanan-dokter.png" alt="Jasa pelayanan dokter"><br><sub><b>Jasa pelayanan dokter.</b> Dicatat saat tagihan terbit (BPJS: saat klaim dibayar), dibayarkan dari sini.</sub></td>
-<td><img src="gambar/aset-tetap.png" alt="Aset tetap dan penyusutan"><br><sub><b>Aset tetap.</b> Nilai buku per golongan, diadu dengan buku besar dan selisihnya diperingatkan.</sub></td>
+<td><img src="gambar/pesan-integrasi.png" alt="Pesan integrasi"><br><sub><b>Pesan integrasi.</b> Tiap pesan beserta percobaan kirim dan jawaban servernya.</sub></td>
+<td></td>
 </tr>
+</table>
+
+### Manajemen
+
+<table>
 <tr>
-<td><img src="gambar/daftar-kerja-koding.png" alt="Daftar kerja koding"><br><sub><b>Koding.</b> Diagnosis utama dan kode tindakan yang masih menunggu.</sub></td>
-<td><img src="gambar/indikator-mutu.png" alt="Indikator mutu"><br><sub><b>Mutu.</b> Indikator nasional mutu, dengan pembilang dan penyebutnya.</sub></td>
-</tr>
-<tr>
-<td><img src="gambar/insiden-keselamatan-pasien.png" alt="Insiden keselamatan pasien"><br><sub><b>Keselamatan pasien.</b> Laporan awal insiden dan grading risikonya.</sub></td>
-<td><img src="gambar/laporan-sirs.png" alt="Laporan SIRS"><br><sub><b>Laporan SIRS.</b> Indikator pelayanan RL 1.2 dihitung dari data pelayanan.</sub></td>
-</tr>
-<tr>
-<td><img src="gambar/ssrme-rekam-medis-nasional.png" alt="Kartu SATUSEHAT Rekam Medis di lembar kerja dokter"><br><sub><b>SATUSEHAT Rekam Medis (SSRME).</b> Persetujuan pasien dan verifikasi profil dimintakan dari lembar kerja. Pembukaan tercatat di jejak audit.</sub></td>
-<td><img src="gambar/akses-lintas-dpjp.png" alt="Dialog akses berkas pasien yang bukan asuhan sendiri"><br><sub><b>Hak akses.</b> Membuka berkas yang bukan asuhan Anda boleh, dengan alasan yang tercatat.</sub></td>
+<td width="50%"><img src="gambar/dasbor-direksi.png" alt="Dasbor direksi"><br><sub><b>Dasbor direksi.</b> Kegiatan hari ini dan hal yang perlu perhatian.</sub></td>
+<td width="50%"><img src="gambar/tema-gelap.png" alt="Dasbor direksi dalam tema gelap"><br><sub><b>Tema gelap.</b> Tersedia tema terang dan gelap.</sub></td>
 </tr>
 </table>
 
