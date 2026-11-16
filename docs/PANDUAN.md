@@ -94,8 +94,10 @@ aplikasi lalu hanya mengisinya.
   aplikasi ini bisa masuk. Jangan membukanya ke jaringan yang tidak Anda percayai.
 - **Tanpa data contoh, aplikasi mulai dari kosong.** Administrator membuat akun di
   **Pengaturan → Pengguna**, dan data dasar (poliklinik, tenaga kesehatan, layanan, tarif,
-  obat) di **Master data**. Nama rumah sakit bawaannya *RS Sehat Sentosa*; gantilah di
-  **Master data → Lokasi**.
+  obat) di **Master data**. Nama rumah sakit bawaannya *RS Sehat Sentosa*, beralamat
+  karangan (*Jl. Nama Jalan, Kelurahan, Kecamatan, Kabupaten/Kota, Provinsi*) dan
+  berlogo contoh; ketiganya tercetak di kop dokumen dan digantilah di
+  **Pengaturan → Profil rumah sakit**.
 - **Sandi baru administrator tidak boleh memuat kata `admin`**, minimal 10 karakter, dan
   tidak boleh angka saja. Layar ganti sandi menyebutkan syarat mana yang belum terpenuhi.
 - **Autentikator hanya diwajibkan bagi akun pengelola pengguna** (`admin`). Akun demo per peran

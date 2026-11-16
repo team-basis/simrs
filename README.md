@@ -83,7 +83,7 @@ dokternya tenaga kesehatan uji milik Kemenkes (namanya tersamar, begitulah sandb
 <table>
 <tr>
 <td width="50%"><img src="gambar/igd-papan-triase.png" alt="Papan IGD"><br><sub><b>IGD.</b> Antrean menurut kegawatan, dengan peringatan bila lewat target tanggap.</sub></td>
-<td width="50%"><img src="gambar/kamar-operasi.png" alt="Kamar operasi"><br><sub><b>Kamar operasi.</b> Waktu operasi, persetujuan tindakan, dan set instrumen.</sub></td>
+<td width="50%"><img src="gambar/kamar-operasi.png" alt="Kamar operasi"><br><sub><b>Kamar operasi.</b> Asesmen pra-anestesi, pemulihan pasca-anestesi, dan waktu operasi.</sub></td>
 </tr>
 <tr>
 <td><img src="gambar/kamar-bersalin.png" alt="Kamar bersalin"><br><sub><b>Kamar bersalin.</b> Catatan persalinan, komplikasi, persetujuan tindakan, dan tanda vital ibu.</sub></td>
@@ -147,7 +147,7 @@ Dua hal berlaku untuk semuanya:
 
 Kolom *Keadaan* menjawab satu pertanyaan: **seberapa jauh integrasinya sudah dibuktikan.**
 
-| Integrasi | Fungsinya | Keadaan (3 Nov 2026) |
+| Integrasi | Fungsinya | Keadaan (16 Nov 2026) |
 |---|---|---|
 | **SATUSEHAT** (HL7 FHIR R4) | Data master dan data klinis tiap kunjungan, resume medis, tagihan. Di lembar kerja ada juga tombol **SATUSEHAT Rekam Medis (SSRME)**: minta persetujuan pasien, akses darurat IGD, dan pembukaan rekam medis nasional oleh dokter penanggung jawab | **Terbukti di sandbox Kemenkes.** Produksi menunggu registrasi sistem rekam medis ke Kemenkes dan kredensial produksi |
 | **SATUSEHAT Webhook** | Menerima jawaban penjamin (eligibilitas, persetujuan, hasil klaim) | Penerima dan pembuka pesan terenkripsi (HPKE) ada, diuji dengan vektor RFC 9180. **Kiriman sungguhan dari Kemenkes belum pernah terlihat** |
@@ -198,15 +198,15 @@ terpenuhi**.
 
 ## Bagaimana kami membuktikannya
 
-Angka di bawah diukur pada **3 November 2026** dan akan basi. Tanggalnya sengaja ditulis. Tangkapan dasbor Kemenkes
+Angka di bawah diukur pada **16 November 2026** dan akan basi. Tanggalnya sengaja ditulis. Tangkapan dasbor Kemenkes
 di bawahnya bertanggal sendiri.
 
 | Yang diukur | Hasil | Cara |
 |---|---|---|
 | Langkah interoperabilitas SATUSEHAT yang jadi tugas sistem rumah sakit | **499 dari 526** terbukti diterima gerbang sandbox. 27 belum | Daftar langkah resmi Kemenkes per modul (34 modul), diadu mesin dengan bukti dari gerbang. 61 langkah lain dikerjakan pihak lain |
-| Jenis pesan yang pernah diterima gerbang | 119 | Berkas bukti ditulis mesin dari antrean sesudah rantai dijalankan |
+| Jenis pesan yang pernah diterima gerbang | 121 | Berkas bukti ditulis mesin dari antrean sesudah rantai dijalankan |
 | Jenis resource di dasbor Monitoring Integrasi SATUSEHAT (sandbox) | **19 dari 19** terisi, rentang 27 Sep sampai 27 Okt 2026, diperbarui 27 Okt 2026 pukul 00.01 WIB | Tangkapan dasbor milik Kemenkes di sisi mereka, dibaca sesudah seluruh skenario dan tur dijalankan. Gambarnya di bawah |
-| Tur otomatis | **362 tes** di 28 berkas | Peramban sungguhan yang menekan tombol seperti petugas: tes yang hijau berarti tombolnya benar-benar bekerja |
+| Tur otomatis | **441 tes** di 37 berkas | Peramban sungguhan yang menekan tombol seperti petugas: tes yang hijau berarti tombolnya benar-benar bekerja |
 
 <img src="gambar/monitoring-satusehat-sandbox.png" alt="Dasbor Monitoring Integrasi SATUSEHAT di sandbox: seluruh 19 jenis resource terisi" width="860">
 
@@ -315,15 +315,16 @@ jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian 
 
 | Video | Isinya | Tonton |
 |---|---|---|
-| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/vxvFJVgF-ik), 17 menit |
-| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/6iUPR7-54cw), 34 menit |
-| **S2** | IGD: pasien tak dikenal, obat dari troli, pulang | [Tonton](https://youtu.be/Dmu7YNxhUm4), 14 menit |
-| **S3** | IGD ke rawat inap ke operasi ke pulang | [Tonton](https://youtu.be/FJ4FmjZpwsE), 38 menit |
+| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | Segera tayang, 17 menit |
+| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | Segera tayang, 32 menit |
+| **S2** | IGD: pasien tak dikenal ditangani tanpa menunggu identitas, obat dari troli, identitas dilengkapi pada berkas yang sama, tagihan lunas | Segera tayang, 17 menit |
+| **S3** | IGD ke rawat inap ke operasi ke pulang, dengan obat pulang dari apotek dan resume medis | Segera tayang, 37 menit |
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
-Video direkam pada 3 November 2026 dari versi yang hampir sama dengan rilis terbaru. Beberapa
-perbaikan tampilan kecil menyusul sesudahnya, jadi satu dua layar dapat sedikit berbeda.
+S0 sampai S3 direkam ulang pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16, sesudah
+tampilannya banyak berubah. AK1 dan AK2 direkam 3 November 2026, jadi beberapa layarnya dapat
+sedikit berbeda dari versi terbaru.
 
 Video **tidak membuktikan pengiriman ke Kemenkes**. Integrasi dimatikan pada rekamannya.
 
