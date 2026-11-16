@@ -57,7 +57,7 @@ ke SATUSEHAT).
 ## Tangkapan layar
 
 Semua data pada gambar adalah karangan. Pasien dan nomor rekam medisnya dibuat acak, dan
-dokternya tenaga kesehatan uji milik Kemenkes atau karangan. Gambar diambil dari versi 2026.11.16.1.
+dokternya tenaga kesehatan uji milik Kemenkes atau karangan. Gambar diambil dari versi 2026.11.16.1, kecuali pesanan pembelian dari 2026.11.16.2.
 
 ### Medis
 
@@ -353,10 +353,9 @@ beserta pekerjaan bagian akuntansinya.
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
-S0 sampai S5 direkam pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16.1, sesudah
-tampilannya banyak berubah. S5 sudah memuat dua perbaikan yang belum ada di rilis itu: jendela kunjungan
-nifas pertama (KF1) di papan nifas, dan tempat persalinan yang terisi dari tempat ibu dirawat. AK1 dan AK2 direkam 3 November 2026, jadi beberapa layarnya dapat
-sedikit berbeda dari versi terbaru.
+S0 sampai S4 direkam pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16.1, dan
+S5 dari versi yang hampir sama dengan rilis 2026.11.16.2, sesudah tampilannya banyak berubah. AK1 dan AK2
+direkam 3 November 2026, jadi beberapa layarnya dapat sedikit berbeda dari versi terbaru.
 
 Video **tidak membuktikan pengiriman ke Kemenkes**. Integrasi dimatikan pada rekamannya.
 
