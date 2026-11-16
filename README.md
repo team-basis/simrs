@@ -315,10 +315,10 @@ jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian 
 
 | Video | Isinya | Tonton |
 |---|---|---|
-| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | Segera tayang, 17 menit |
-| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | Segera tayang, 32 menit |
-| **S2** | IGD: pasien tak dikenal ditangani tanpa menunggu identitas, obat dari troli, identitas dilengkapi pada berkas yang sama, tagihan lunas | Segera tayang, 17 menit |
-| **S3** | IGD ke rawat inap ke operasi ke pulang, dengan obat pulang dari apotek dan resume medis | Segera tayang, 37 menit |
+| **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/BYS6QCSyQqA), 17 menit |
+| **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/0M_ninGQe1o), 32 menit |
+| **S2** | IGD: pasien tak dikenal ditangani tanpa menunggu identitas, obat dari troli, identitas dilengkapi pada berkas yang sama, tagihan lunas | [Tonton](https://youtu.be/OOXioglHRyI), 17 menit |
+| **S3** | IGD ke rawat inap ke operasi ke pulang, dengan obat pulang dari apotek dan resume medis | [Tonton](https://youtu.be/UJaGOjPG7Cc), 37 menit |
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
