@@ -336,20 +336,22 @@ Seluruh rilis ditandai **preview**: sesuatu bisa berubah antarversi.
 ## Video skenario
 
 Video menjalankan aplikasinya langsung, dengan narasi, dan seluruh datanya karangan. **S0**
-memperlihatkan paket yang baru dipasang sampai siap dipakai. **S1** sampai **S3** pelayanan
-pasien, dari rawat jalan sampai rawat inap dan operasi. **AK1** dan **AK2** memperlihatkan
-jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian akuntansinya.
+memperlihatkan paket yang baru dipasang sampai siap dipakai. **S1** sampai **S4** pelayanan
+pasien, dari rawat jalan sampai rawat inap, operasi, dan pulang atas permintaan sendiri.
+**AK1** dan **AK2** memperlihatkan jurnal akuntansi yang lahir dari kegiatan rumah sakit,
+beserta pekerjaan bagian akuntansinya.
 
 | Video | Isinya | Tonton |
 |---|---|---|
 | **S0** | Dari paket yang baru diunduh sampai aplikasi siap dipakai | [Tonton](https://youtu.be/BYS6QCSyQqA), 17 menit |
 | **S1** | Rawat jalan poli umum dengan dua pasien: pendaftaran, pemeriksaan, penahanan alergi, laboratorium, radiologi, farmasi, kasir | [Tonton](https://youtu.be/0M_ninGQe1o), 32 menit |
 | **S2** | IGD: pasien tak dikenal ditangani tanpa menunggu identitas, obat dari troli, identitas dilengkapi pada berkas yang sama, tagihan lunas | [Tonton](https://youtu.be/OOXioglHRyI), 17 menit |
-| **S3** | IGD ke rawat inap ke operasi ke pulang, dengan obat pulang dari apotek dan resume medis | [Tonton](https://youtu.be/UJaGOjPG7Cc), 37 menit |
+| **S3** | IGD ke rawat inap ke operasi ke pulang, dengan obat pulang dari depo farmasi rawat inap dan resume medis | [Tonton](https://youtu.be/kI1hOyT5Dnw), 37 menit |
+| **S4** | Rawat inap, pasien pulang atas permintaan sendiri: siapa yang menyatakan tercatat, surat pernyataan tercetak, obat pulang diserahkan, tagihan lunas, pernyataannya masuk antrean SATUSEHAT | [Tonton](https://youtu.be/l-uxnqBVc6g), 17 menit |
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
-S0 sampai S3 direkam ulang pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16.1, sesudah
+S0 sampai S4 direkam pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16.1, sesudah
 tampilannya banyak berubah. AK1 dan AK2 direkam 3 November 2026, jadi beberapa layarnya dapat
 sedikit berbeda dari versi terbaru.
 
