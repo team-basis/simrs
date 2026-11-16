@@ -322,7 +322,7 @@ jurnal akuntansi yang lahir dari kegiatan rumah sakit, beserta pekerjaan bagian 
 | **AK1** | Akuntansi: jurnal yang lahir dari kegiatan rumah sakit, dari obat diterima sampai klaim BPJS dibayar, dibuka dengan neraca, laba rugi, dan stok awal bulan | [Tonton](https://youtu.be/O_5LYMKMhAQ), 15 menit |
 | **AK2** | Akuntansi: utang pemasok, aset tetap, gaji, jasa dokter, dan penyusutan, ditutup dengan neraca dan laba rugi dua periode serta kartu stok | [Tonton](https://youtu.be/8NDDQrqOtHM), 11 menit |
 
-S0 sampai S3 direkam ulang pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16, sesudah
+S0 sampai S3 direkam ulang pada 15 dan 16 November 2026 dari versi yang hampir sama dengan rilis 2026.11.16.1, sesudah
 tampilannya banyak berubah. AK1 dan AK2 direkam 3 November 2026, jadi beberapa layarnya dapat
 sedikit berbeda dari versi terbaru.
 
