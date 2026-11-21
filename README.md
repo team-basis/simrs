@@ -188,7 +188,7 @@ Kolom *Keadaan* menjawab satu pertanyaan: **seberapa jauh integrasinya sudah dib
 | **BPJS Antrean Online** | Nomor antrean dan waktu tiap tahap pelayanan | Sama dengan VClaim. Sisi masuk (Mobile JKN memanggil rumah sakit) **belum dibuat** |
 | **BPJS Aplicares** | Ketersediaan tempat tidur untuk Mobile JKN | Sama dengan VClaim |
 | **BPJS i-Care JKN** | Riwayat pelayanan peserta di layar dokter | Dibangun, alamat endpoint-nya belum terbukti |
-| **E-Klaim** (INA-CBG) | Kode CBG dan tarif paket dari aplikasi E-Klaim di jaringan rumah sakit | Diuji dengan simulator. **Belum dengan instalasi E-Klaim sungguhan.** Sistem ini tidak pernah menggrup sendiri |
+| **E-Klaim** (INA-CBG) | Kode CBG dan tarif paket dari aplikasi E-Klaim di jaringan rumah sakit | Diuji terhadap aplikasi **E-Klaim 5.10.9 sungguhan** yang terpasang di komputer pengembang, dengan setelan latihan Kemenkes (rumah sakit tiruan): grouping dan tautan kunjungan SATUSEHAT. **Belum di rumah sakit sungguhan.** Sistem ini tidak pernah menggrup sendiri |
 | **SISRUTE** | Rujukan antar-fasilitas | Diuji dengan simulator menurut dokumentasi resmi |
 | **SIRANAP** | Ketersediaan tempat tidur per kelas | Diuji dengan simulator. **Protokolnya belum diverifikasi ke API sungguhan** |
 | **Alat laboratorium** (HL7 v2) | Hasil alat masuk sebagai draf lembar hasil | Diuji dengan simulator alat |
