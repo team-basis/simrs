@@ -73,8 +73,8 @@ Periksa hasilnya dengan `dotnet --list-runtimes`: harus ada baris
    Microsoft Authenticator, atau sejenisnya) dengan memindai kode QR di layar. Simpan delapan
    kode pemulihan yang tampil. Sesudahnya, tiap kali `admin` masuk, sistem meminta enam digit
    dari ponsel itu.
-6. **Isi data contoh** (disarankan): buka **Pengaturan → Data contoh**, lalu tekan **Isi Data
-   Contoh**. Dalam kira-kira satu menit basis data terisi poliklinik, dokter, jadwal, stok,
+6. **Isi data contoh** (disarankan): buka **Pengaturan → Rumah sakit & akses → Data contoh**, lalu
+   tekan **Isi Data Contoh**. Dalam kira-kira satu menit basis data terisi poliklinik, dokter, jadwal, stok,
    40 pasien karangan, dan satu akun per peran. Layar itu menampilkan daftar akun beserta
    sandinya.
 
@@ -93,11 +93,11 @@ aplikasi lalu hanya mengisinya.
   (dokter, perawat, kasir, apotek, dan seterusnya), dan berarti siapa pun yang bisa menjangkau
   aplikasi ini bisa masuk. Jangan membukanya ke jaringan yang tidak Anda percayai.
 - **Tanpa data contoh, aplikasi mulai dari kosong.** Administrator membuat akun di
-  **Pengaturan → Pengguna**, dan data dasar (poliklinik, tenaga kesehatan, layanan, tarif,
+  **Pengaturan → Rumah sakit & akses → Pengguna**, dan data dasar (poliklinik, tenaga kesehatan, layanan, tarif,
   obat) di **Master data**. Nama rumah sakit bawaannya *RS Sehat Sentosa*, beralamat
   karangan (*Jl. Nama Jalan, Kelurahan, Kecamatan, Kabupaten/Kota, Provinsi*) dan
   berlogo contoh; ketiganya tercetak di kop dokumen dan digantilah di
-  **Pengaturan → Profil rumah sakit**.
+  **Pengaturan → Rumah sakit & akses → Profil rumah sakit**.
 - **Sandi baru administrator tidak boleh memuat kata `admin`**, minimal 10 karakter, dan
   tidak boleh angka saja. Layar ganti sandi menyebutkan syarat mana yang belum terpenuhi.
 - **Autentikator hanya diwajibkan bagi akun pengelola pengguna** (`admin`). Akun demo per peran
@@ -111,7 +111,7 @@ aplikasi lalu hanya mengisinya.
 - **Integrasi ke luar mati bawaannya.** SATUSEHAT, BPJS, E-Klaim, SISRUTE, SIRANAP, alat
   laboratorium, dan DICOM Router baru bekerja bila Anda menyalakannya di `setelan.json` dan
   mengisi kredensialnya, yang diterbitkan Kemenkes dan BPJS, bukan oleh paket ini. Aplikasi
-  berjalan penuh tanpa semuanya. Statusnya terbaca di **Pengaturan → Antrean integrasi**,
+  berjalan penuh tanpa semuanya. Statusnya terbaca di **Pengaturan → Integrasi → Antrean integrasi**,
   beserta tombol **Uji** untuk memeriksa sambungannya.
 - **Mengakses dari komputer lain.** Lewat `http://localhost` di komputer yang sama, aplikasi
   tidak memerlukan sertifikat. Dari komputer lain, aplikasi **menolak masuk lewat HTTP** dan
@@ -190,6 +190,6 @@ skema**: setelah basis data dimutakhirkan, versi yang lebih lama menolak menyala
 | `Zona waktu sistem operasi … berbeda` | Ubah `TimeZone` di `setelan.json` (lihat di atas) |
 | Tidak bisa masuk, konsol menyebut `Akun administrator awal belum dikonfigurasi` | `InitialAdmin` → `Password` di `setelan.json` masih kosong. Isi, lalu jalankan ulang. Akun hanya dibuat bila belum ada satu pengguna pun |
 | Layar masuk menyebut aplikasi dilayani lewat HTTP | Anda membuka lewat alamat selain `localhost`. Buka `http://localhost:5000`, atau pasang HTTPS |
-| **Pengaturan → Data contoh** menyebut penanaman tidak dinyalakan | `Hospital` → `DemoData` → `Enabled` di `setelan.json` bernilai `false` atau terhapus. Jadikan `true`, lalu jalankan ulang |
+| **Pengaturan → Rumah sakit & akses → Data contoh** menyebut penanaman tidak dinyalakan | `Hospital` → `DemoData` → `Enabled` di `setelan.json` bernilai `false` atau terhapus. Jadikan `true`, lalu jalankan ulang |
 | Data contoh ditolak karena basis data sudah berisi pasien | Data contoh hanya untuk basis data kosong. Ganti nama basis data di `ConnectionStrings`, lalu jalankan ulang |
 | `address already in use` | Port 5000 dipakai program lain. Ubah `Urls` di `setelan.json`, mis. `http://localhost:5050` |
